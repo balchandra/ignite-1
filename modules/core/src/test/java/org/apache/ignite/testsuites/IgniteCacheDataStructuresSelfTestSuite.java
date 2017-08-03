@@ -90,6 +90,18 @@ public class IgniteCacheDataStructuresSelfTestSuite extends TestSuite {
         TestSuite suite = new TestSuite("Ignite Cache Data Structures Test Suite");
 
         suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
+        suite.addTest(new TestSuite(GridCacheReplicatedDataStructuresFailoverSelfTest.class));
 
         return suite;
     }
